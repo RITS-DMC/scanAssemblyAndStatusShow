@@ -1,0 +1,33 @@
+{
+	"components": [
+		{
+			"id": "scanandassemblestatus",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "rits.assembly.custom.plugin.scanandassemblestatus.scanandassemblestatus",
+			"propertyEditor": "rits.assembly.custom.plugin.scanandassemblestatus.scanandassemblestatus.builder.PropertyEditor",
+			"i18n": "rits.assembly.custom.plugin.scanandassemblestatus.scanandassemblestatus.i18n.i18n",
+            "productionProcessEnabled": true,
+           "productionProcessTitle": "scanandassemblestatus",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER"]
+		},
+		{
+			"id": "scanAssembly2",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "rits.assembly.custom.plugin.scanandassemblestatus.scanAssembly",
+			"propertyEditor": "rits.assembly.custom.plugin.scanandassemblestatus.scanAssembly.builder.PropertyEditor",
+			"i18n": "rits.assembly.custom.plugin.scanandassemblestatus.scanAssembly.i18n.i18n",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		},
+		{
+			"id": "assemblyStatus2",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "rits.assembly.custom.plugin.scanandassemblestatus.assemblyStatus",
+			"propertyEditor": "rits.assembly.custom.plugin.scanandassemblestatus.assemblyStatus.builder.PropertyEditor",
+			"i18n": "rits.assembly.custom.plugin.scanandassemblestatus.assemblyStatus.i18n.i18n",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}   
+	]
+}
